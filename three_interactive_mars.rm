@@ -1,0 +1,44 @@
+# Three Interactive Bars
+
+**Three Interactive Bars** is a simple ISF generator for VDMX6 Plus.
+
+It creates three horizontal white bars on a transparent background. Each bar can be controlled independently inside VDMX.
+
+## Controls
+
+Each bar has two parameters:
+
+- **Position** – moves the bar horizontally from left to right
+- **Width** – changes the width of the bar
+
+Additional controls:
+
+- **Bar Height** – adjusts the height of all three bars
+- **Soft Edge** – adds a soft transition to the bar edges
+- **Opacity** – controls the overall transparency
+
+All parameters can be mapped to VDMX sliders, MIDI controllers, OSC, audio analysis, or other modulation sources.
+
+## Installation
+
+Copy the file:
+
+`Three_Interactive_Bars.fs`
+
+to:
+
+`~/Library/Graphics/ISF/`
+
+If the `ISF` folder does not exist, create it.
+
+After copying the file, restart VDMX.
+
+The generator should then appear in the ISF Sources / Generators section.
+
+You can also try dragging the `.fs` file directly into a VDMX Media Bin.
+
+## Requirements
+
+- VDMX6 Plus
+- macOS
+- ISF support enabled in VDMX
