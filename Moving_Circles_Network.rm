@@ -1,0 +1,34 @@
+# Moving Circles Network
+
+Moving Circles Network is an ISF generator for VDMX6 Plus.
+It creates animated circles that move across the screen and automatically draw connecting lines when they are close to each other.
+
+## Main Controls
+
+- Circle Count – sets how many circles are visible
+- Neighbour Sensitivity – controls how close circles need to be before lines appear
+- Movement Speed – controls animation speed
+- Circle Size – sets the size of the circles
+- Line Width – sets the thickness of the connecting lines
+- Softness – softens the edges of circles and lines
+- Opacity – controls the overall transparency
+
+## How it works
+
+The circles move continuously using internally generated motion paths.
+Whenever two circles come within the chosen neighbour distance, a line is drawn between them.
+This creates a dynamic point-network effect.
+
+## Installation
+
+Copy the file:
+Moving_Circles_Network.fs
+
+to:
+~/Library/Graphics/ISF/
+
+If the ISF folder does not exist, create it.
+Restart VDMX after copying the file.
+
+The generator should then appear in the ISF Sources / Generators section.
+You can also drag the .fs file directly into a VDMX Media Bin.

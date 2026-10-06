@@ -1,0 +1,32 @@
+# Three Vertical Lines
+
+Three Vertical Lines is a simple ISF generator for VDMX6 Plus.
+
+It creates three vertical white lines that extend from the top to the bottom of the screen on a transparent background.
+Each line can be controlled independently inside VDMX.
+
+## Controls
+
+Each line has two parameters:
+- Line Position – moves the line horizontally from left to right
+- Line Width – changes the thickness of the line
+
+Additional controls:
+- Soft Edge – softens the line edges
+- Opacity – controls the overall transparency
+
+All parameters can be mapped to VDMX sliders, MIDI, OSC, LFOs, or audio-reactive controls.
+
+## Installation
+
+Copy the file:
+Three_Vertical_Lines.fs
+
+to:
+~/Library/Graphics/ISF/
+
+If the ISF folder does not exist, create it.
+Then restart VDMX.
+
+The generator should appear in the ISF Sources / Generators section.
+You can also drag the .fs file directly into a VDMX Media Bin.
